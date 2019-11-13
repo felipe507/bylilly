@@ -1,0 +1,159 @@
+@charset "utf-8";
+/* @Daniel @Felipe @Matheus */
+
+/* MANTER CSS ORGANIZADO */
+/* Aviso:Manter espaçamento entre linhas do CSS */
+
+
+/*CONFIGURAÇÕES DO ASIDE*/
+
+
+form{
+	margin-top: 5px;
+	
+	width:100%;
+
+	color: white;
+
+	background-color: rgba(238, 16, 127, 0.692);
+
+	border-radius: 10px; 
+
+	display: grid;    
+
+}
+
+aside{
+	margin-top: 5px;
+	margin-left: 15%;
+	border-radius: 5%; 
+	width:70%;
+	
+	margin-right: 15%;
+	background-color: rgba(238, 16, 127, 0.592);
+}
+
+
+form input, form textarea{
+
+	margin-right: auto;
+	
+	margin-bottom: 2px;
+	
+	margin-left: auto;
+	
+	width: 80%;
+
+	padding: 0.2em;
+    
+    border: 1px solid #CCC;
+    
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    
+	display: block;
+
+	border-radius: 10px;
+
+}
+form h2{
+	
+	margin-left:auto; 
+
+	margin-right: auto;
+	
+	text-align: center;
+
+	padding-top: 2%;
+	
+	padding-bottom:2px; 
+	
+	font-size: 1.8em;
+
+	margin-bottom: 0px;
+
+	padding-bottom: 0px;
+}
+
+
+form label {
+	
+	margin-left: 10%;
+
+	font-size: 1.3em;
+}
+
+
+
+
+button{
+	display:block;
+
+	border-radius: 26px;
+
+	margin-left: auto;
+
+	margin-right: auto;
+
+	width: 20%;
+
+	margin-bottom: 3%;
+
+	color: black;
+
+	background: white;
+
+	font-size:1em;
+
+	margin-top:10px;			
+
+	padding-bottom: 5px;
+
+	padding-top: 5px;
+
+	font-size: 1.5em;
+}
+
+input:focus, textarea:focus {
+    /* Dar um pouco de destaque nos elementos ativos */
+	border: 2px solid #000;
+}
+
+
+
+
+
+/* MEDIA QUERYS */
+	
+
+
+
+
+@media screen and (max-width:750px) {
+	
+	
+
+	form p {
+		
+		font-size:1.2em;
+		
+		margin-left:2%; 
+
+	}
+	form input{
+
+		width: 80%;
+	}
+	button{
+
+		width: 50%;
+	}
+
+	
+}
+
+	
+	
+
+
+
+
