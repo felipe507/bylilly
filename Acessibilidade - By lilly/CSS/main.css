@@ -24,6 +24,9 @@
 	margin: 5px;
 	
 }
+ #fontMaior, #fontMenor{
+    cursor: pointer
+}
 
 /* CONFIGURAÇÃO GERAL */
 
