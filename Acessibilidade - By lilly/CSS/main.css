@@ -3,6 +3,28 @@
 /* MANTER CSS ORGANIZADO */
 
 
+/*Acessibilidade*/
+#acessibilidade{
+	
+	background-color: #808080;
+	color: white;
+
+
+}
+
+#atalhos{
+	
+	display: flex;
+	list-style: none;
+	
+}
+
+#atalhos li{
+	
+	margin: 5px;
+	
+}
+
 /* CONFIGURAÇÃO GERAL */
 
 * {
