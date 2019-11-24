@@ -18,7 +18,7 @@ aside{
 
 	font-size: 0.8em;
 	color: white;
-	background-color: rgba(238, 16, 127, 0.692);
+	background-color: rgba(212, 155, 42, 0.8);
 	display: grid;
 	align-items: center;
 	align-content: center;
@@ -43,7 +43,7 @@ h4{
 .imgsobre{
 	background-image: url('../imagens/sobre.jpg');
 	background-position-x: 100%;
-	background-color: rgba(238, 16, 127, 0.592);
+	
 	
 }
 

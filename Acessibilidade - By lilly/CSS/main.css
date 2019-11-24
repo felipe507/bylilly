@@ -3,6 +3,31 @@
 /* MANTER CSS ORGANIZADO */
 
 
+/*Acessibilidade*/
+#acessibilidade{
+	
+	background-color: #808080;
+	color: white;
+
+
+}
+
+#atalhos{
+	
+	display: flex;
+	list-style: none;
+	
+}
+
+#atalhos li{
+	
+	margin: 5px;
+	
+}
+ #fontMaior, #fontMenor{
+    cursor: pointer
+}
+
 /* CONFIGURAÇÃO GERAL */
 
 * {
@@ -17,7 +42,9 @@ body {
     display: flex;
     flex-wrap: wrap;
 	font-family: 'Source Sans Pro', sans-serif;
-	 min-height: calc( 100vh - 100px);
+     min-height: calc( 100vh - 100px);
+     min-width: 100%;
+     min-height: 100vh;
 }
 
 
@@ -106,7 +133,7 @@ header label:hover {
 }
 
 .menu li a:hover {
-    border-color: #ee107f;
+    border-color:#D49B2A;
 }
 
 .menu ul ul {

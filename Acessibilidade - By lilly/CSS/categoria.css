@@ -36,7 +36,7 @@ aside img {
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: #fc0fc0;
+   	background-color: rgba(212, 155, 42, 0.9);
 }
 
 .efeito:hover .overlay {
