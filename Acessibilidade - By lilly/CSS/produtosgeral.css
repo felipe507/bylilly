@@ -41,6 +41,17 @@ h4{
 	margin-right:10%;
 }
 
+table{
+	border: solid 1px white;
+	border-collapse: collapse;
+}
+
+td,th{
+	color: white;
+	border-top: solid 1px white;
+	border-bottom: solid 1px white
+}
+
 
 #info{
 	width: 100%;
