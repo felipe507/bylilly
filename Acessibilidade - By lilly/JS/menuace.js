@@ -8,6 +8,7 @@ function vai(){
         $('h1, h2, h3, h4, h5').css({ "border-bottom" : "1px solid black"})
         $('.ponteiro').css({ "background-color": "black" })
         $('.texto_animado').css({ "filter" : "invert(100%)"})
+        $('h1').css({"background-image":'url("../imagens/LogoPreta.png")'})
         localStorage.setItem("altoContraste", "true")
     }
     const removeAltoConstraste = () => {
