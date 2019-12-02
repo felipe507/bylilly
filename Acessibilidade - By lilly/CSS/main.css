@@ -45,6 +45,8 @@ body {
      min-height: calc( 100vh - 100px);
      min-width: 100%;
      min-height: 100vh;
+	 
+	
 }
 
 
@@ -174,6 +176,7 @@ header label:hover {
 
 main {
     width: 100%;
+	color: #A1A1A1;
 }
 
 

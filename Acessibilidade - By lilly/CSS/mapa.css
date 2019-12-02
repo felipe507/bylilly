@@ -16,6 +16,7 @@ margin-right: auto;
 #mapa li{
     font-size: 1.2em;
     margin: 7px;
+	color: #a1a1a1;
 }
 
 h2{
@@ -52,4 +53,9 @@ h3{
 	padding: 40px;
     background-color: #D49B2A;
     display: block;
+	color: #1a1a1a;
+}
+
+#mapa-do-site li a{
+	color: #1a1a1a;
 }
