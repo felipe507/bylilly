@@ -47,7 +47,7 @@ table{
 }
 
 td,th{
-	color: white;
+	color: #1a1a1a;
 	border-top: solid 1px white;
 	border-bottom: solid 1px white
 }
@@ -169,7 +169,7 @@ background-color: rgba(212, 155, 42, 0.8);
 	}
 	.text {
 	
-	color: white;
+	color: #1a1a1a;
 	
 	top: 40%;
 	
@@ -184,7 +184,7 @@ background-color: rgba(212, 155, 42, 0.8);
 
 	.text {
 	
-	color: white;
+	color: #1a1a1a;
 	
 	top: 25%;
 	
@@ -210,7 +210,7 @@ background-color: rgba(212, 155, 42, 0.8);
 #info > section > h2{
 	
 	font-size: 1.2em;
-	color: white;
+	color: #1a1a1a;
 	font-weight: normal;
 }
 #info div{
