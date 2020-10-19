@@ -1,0 +1,104 @@
+@charset "utf-8";
+
+/* @Daniel @Felipe @Matheus */
+
+
+/* MANTER CSS ORGANIZADO */
+/* Aviso:Manter espaçamento entre linhas do CSS */
+
+
+
+/*CONFIGURAÇÕES DO ASIDE*/
+aside{
+	width:65%;
+	margin-left: 17.5%;
+}
+
+.sobreinfo{
+
+	font-size: 0.8em;
+	color: white;
+	background-color: rgba(212, 155, 42, 0.8);
+	display: grid;
+	align-items: center;
+	align-content: center;
+	text-align: center;
+	margin-top: 2%;
+	border-radius: 5px;
+	padding:50px;
+	color: #1a1a1a;
+	
+	
+	
+}
+
+
+h4{
+	margin-top:10px;
+	font-size: 1.4em;
+
+	
+
+}
+
+.imgsobre{
+	background-image: url('../imagens/sobre.jpg');
+	background-position-x: 100%;
+	
+	
+}
+
+
+
+
+
+
+/*CONFIGURAÇÕES DO FOOTER*/
+
+footer {
+	
+	background-color: #000000;
+	
+	color: white;
+	
+	flex-basis: 100%;
+	
+	margin-top: 0.625em;
+}
+
+#suport {
+	margin-top: 3.5em;
+}
+
+/*CONFIGURAÇÕES DO CONTATOS*/
+
+#menu-contato li {
+	font-size: 1.25em;
+
+	text-decoration: none;
+	
+	margin-right: 10.62em;
+	
+	margin-left: 10px;
+}
+
+#menu-contato {
+	float: left;
+}
+
+#menu-contato>li h2 {
+	padding-left: 0.5em;
+}
+
+ul .whatsapp::before {
+	content: url(../imagens/iconis/whats.png)
+}
+
+ul .facebook:before {
+	content: url(../imagens/iconis/face.png)
+}
+
+ul .instagram:before {
+	content: url(../imagens/iconis/insta.png)
+}
+

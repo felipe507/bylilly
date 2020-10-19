@@ -1,0 +1,253 @@
+@charset "utf-8";
+
+/* @Daniel @Felipe @Matheus */
+
+
+/* MANTER CSS ORGANIZADO */
+/* Aviso:Manter espaçamento entre linhas do CSS */
+
+
+/*CONFIGURAÇÕES DO ASIDE*/
+
+
+img {
+	width: 100%;
+}
+
+
+.conteiner>div[id^=caixa] {
+	
+	
+	width: 15%;
+	
+	
+	float: left;
+	
+	
+	margin-left: 8%;
+	
+	
+	margin-top: 1em;
+	
+	
+	margin-bottom: 1em;
+}
+
+
+/*EFEITO NA DIV*/
+
+
+.overlay {
+	
+	position: absolute;
+	
+	top: 0;
+	
+	left: 0;
+	
+	right: 0;
+	
+	height: 100%;
+	
+	width: 100%;
+	
+	opacity: 0;
+	
+	transition: .5s ease;
+	
+	background-color: rgba(212, 155, 42, 0.8);
+}
+
+.efeito:hover .overlay {
+	opacity: 0.5;
+	transform: scale(1.021);
+	
+}
+
+.efeito:hover img{
+	transform: scale(1.021);
+}
+
+.imagem {
+	
+	display: block;
+	
+	width: 100%;
+	
+	height: auto;
+}
+
+
+/*CONFIGURAÇÕES DO FOOTER*/
+
+footer {
+	
+	background-color: #000000;
+	
+	color: white;
+	
+	flex-basis: 100%;
+	
+	margin-top: 0.625em;
+}
+
+.text {
+    color: #1a1a1a;
+    font-size: 0.80em;
+    position: absolute;
+    top: 45%;
+    margin-left: 15%;
+    text-align: center;
+}
+
+
+.efeito {
+    position: relative;
+   
+}
+
+/* MEDIA QUERYS */
+	
+
+
+@media screen and (max-width: 800px) {
+	.conteiner>div[id^="caixa"] {
+		
+		width: 35%;
+		
+		margin-left: 10%;
+		
+		margin-right: 10%;
+		
+		z-index: 1;
+		
+		flex: 1;
+	}
+	
+	#menu-no-mobile{
+		display:none;
+	}
+
+	#menu-mobile{
+		display: unset;
+	}
+	.text {
+	
+	color: white;
+	
+	font-size:1.2em;
+	
+	top: 50%;
+	
+	
+	
+	text-align: center;
+}
+
+}
+
+@media screen and (max-width:750px) {
+	
+	.conteiner>div[id^="caixa"] {
+		
+		width: 40%;
+		
+		margin-left: 5%;
+		
+		margin-right: 5%;
+		
+		z-index: 1;
+		
+		flex: 1;
+	}
+	
+	header {
+		
+		position: fixed;
+		
+		z-index: 3;
+		
+		padding: 1%;
+	}
+	header label {
+		
+		background-color: #000000;
+		
+		display: block;
+	}
+	.menu ul {
+		
+		position: fixed;
+		
+		background-color: #000000ed;
+		
+		width: 11.2em;
+		
+		flex-direction: column;
+		
+		margin-left: -12.2em;
+		
+		z-index: 3;
+		
+		padding:0.8% 1% 81% 0%;
+	}
+	.menu li a {
+		
+		border-top: 0.062em solid white;
+		
+		text-decoration: none;
+	}
+	header h1 {
+		
+		display: none;
+		
+		transition: all 0.6s;
+		
+		padding: 10px;
+	}
+	#btn-menu:checked~.menu ul {
+		margin-left: -10px;
+	}
+	.menu li {
+		padding: 0em;
+	}
+
+	header #logo > .lih1{
+		
+		position: fixed;
+		
+		display: inline;
+		
+		justify-content: center;
+		
+		margin: -1px 45%;
+	}
+	.text {
+	
+	color: white;
+	
+	top: 40%;
+	
+	
+	
+	text-align: center;
+	}
+
+}
+
+@media screen and (max-width: 500px) {
+
+	.text {
+	
+	color: white;
+	
+	top: 25%;
+	
+	left: 5%;
+	
+	text-align: center;
+	}
+
+
+}
+
